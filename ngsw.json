@@ -1,0 +1,99 @@
+{
+  "configVersion": 1,
+  "index": "https://onemoreclick82.github.io/FirstProject/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://onemoreclick82.github.io/FirstProject/favicon.ico",
+        "https://onemoreclick82.github.io/FirstProject/index.html",
+        "https://onemoreclick82.github.io/FirstProject/main.8d02c5caeba44167974e.js",
+        "https://onemoreclick82.github.io/FirstProject/polyfills.2f4a59095805af02bd79.js",
+        "https://onemoreclick82.github.io/FirstProject/runtime.a66f828dca56eeb90e02.js",
+        "https://onemoreclick82.github.io/FirstProject/styles.72a7b659dc7827421460.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://onemoreclick82.github.io/FirstProject/assets/bod_bg.jpg",
+        "https://onemoreclick82.github.io/FirstProject/assets/bod_bg_bak.jpg",
+        "https://onemoreclick82.github.io/FirstProject/assets/cardone.jpg",
+        "https://onemoreclick82.github.io/FirstProject/assets/cardone_round.jpg",
+        "https://onemoreclick82.github.io/FirstProject/assets/cardthree.jpg",
+        "https://onemoreclick82.github.io/FirstProject/assets/cardthree_round.jpg",
+        "https://onemoreclick82.github.io/FirstProject/assets/cardtwo.jpg",
+        "https://onemoreclick82.github.io/FirstProject/assets/cardtwo_round.jpg",
+        "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-128x128.png",
+        "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-144x144.png",
+        "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-152x152.png",
+        "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-192x192.png",
+        "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-384x384.png",
+        "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-512x512.png",
+        "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-72x72.png",
+        "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "jokes-api",
+      "patterns": [
+        "https:\\/\\/api\\.chucknorris\\.io\\/jokes\\/random"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://onemoreclick82.github.io/FirstProject/assets/bod_bg.jpg": "07a25d5ed4657a406212fffcfd73cc8d592ec821",
+    "https://onemoreclick82.github.io/FirstProject/assets/bod_bg_bak.jpg": "dd39198f64d6d287b8bad010aa26127d8514af29",
+    "https://onemoreclick82.github.io/FirstProject/assets/cardone.jpg": "5818b7df507231ef7d59d1a51cf186b54f0510f1",
+    "https://onemoreclick82.github.io/FirstProject/assets/cardone_round.jpg": "b31243b26376815dcb11dadc5df24dae0df9090f",
+    "https://onemoreclick82.github.io/FirstProject/assets/cardthree.jpg": "9104e8f9f81844797c1099c57d065c95a71f6eda",
+    "https://onemoreclick82.github.io/FirstProject/assets/cardthree_round.jpg": "30824d5b25bfbc076be37ca9ee413ad444215cb6",
+    "https://onemoreclick82.github.io/FirstProject/assets/cardtwo.jpg": "e00300a4c5c22b25288964eee90394ec269ae67a",
+    "https://onemoreclick82.github.io/FirstProject/assets/cardtwo_round.jpg": "0f048194b3292dea962f0297ca9da981f40a4af1",
+    "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://onemoreclick82.github.io/FirstProject/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://onemoreclick82.github.io/FirstProject/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://onemoreclick82.github.io/FirstProject/index.html": "afed0ed6d68a713955c5a27ac1fd58adf804e0b6",
+    "https://onemoreclick82.github.io/FirstProject/main.8d02c5caeba44167974e.js": "31ea4327d5b93bc82e50c1b2429af7625d420386",
+    "https://onemoreclick82.github.io/FirstProject/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
+    "https://onemoreclick82.github.io/FirstProject/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "https://onemoreclick82.github.io/FirstProject/styles.72a7b659dc7827421460.css": "3a1ab062e8f326a5184d651cdad2468d56ddb39f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
