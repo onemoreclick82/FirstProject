@@ -1,0 +1,99 @@
+{
+  "configVersion": 1,
+  "index": "/FirstProject/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/FirstProject/favicon.ico",
+        "/FirstProject/index.html",
+        "/FirstProject/main.9524c4e83986fee8cd18.js",
+        "/FirstProject/polyfills.2f4a59095805af02bd79.js",
+        "/FirstProject/runtime.a66f828dca56eeb90e02.js",
+        "/FirstProject/styles.72a7b659dc7827421460.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/FirstProject/assets/bod_bg.jpg",
+        "/FirstProject/assets/bod_bg_bak.jpg",
+        "/FirstProject/assets/cardone.jpg",
+        "/FirstProject/assets/cardone_round.jpg",
+        "/FirstProject/assets/cardthree.jpg",
+        "/FirstProject/assets/cardthree_round.jpg",
+        "/FirstProject/assets/cardtwo.jpg",
+        "/FirstProject/assets/cardtwo_round.jpg",
+        "/FirstProject/assets/icons/icon-128x128.png",
+        "/FirstProject/assets/icons/icon-144x144.png",
+        "/FirstProject/assets/icons/icon-152x152.png",
+        "/FirstProject/assets/icons/icon-192x192.png",
+        "/FirstProject/assets/icons/icon-384x384.png",
+        "/FirstProject/assets/icons/icon-512x512.png",
+        "/FirstProject/assets/icons/icon-72x72.png",
+        "/FirstProject/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "jokes-api",
+      "patterns": [
+        "https:\\/\\/api\\.chucknorris\\.io\\/jokes\\/random"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/FirstProject/assets/bod_bg.jpg": "07a25d5ed4657a406212fffcfd73cc8d592ec821",
+    "/FirstProject/assets/bod_bg_bak.jpg": "dd39198f64d6d287b8bad010aa26127d8514af29",
+    "/FirstProject/assets/cardone.jpg": "5818b7df507231ef7d59d1a51cf186b54f0510f1",
+    "/FirstProject/assets/cardone_round.jpg": "b31243b26376815dcb11dadc5df24dae0df9090f",
+    "/FirstProject/assets/cardthree.jpg": "9104e8f9f81844797c1099c57d065c95a71f6eda",
+    "/FirstProject/assets/cardthree_round.jpg": "30824d5b25bfbc076be37ca9ee413ad444215cb6",
+    "/FirstProject/assets/cardtwo.jpg": "e00300a4c5c22b25288964eee90394ec269ae67a",
+    "/FirstProject/assets/cardtwo_round.jpg": "0f048194b3292dea962f0297ca9da981f40a4af1",
+    "/FirstProject/assets/icons/icon-128x128.png": "1df5543bef01f670b853ed1d5310a8c673a9328e",
+    "/FirstProject/assets/icons/icon-144x144.png": "76e38d9bf39c6dd36415ca4e094f38ca4f60ba8b",
+    "/FirstProject/assets/icons/icon-152x152.png": "4c2705858e14466884130c587a021108d5d6a64a",
+    "/FirstProject/assets/icons/icon-192x192.png": "3fa7ca0b9a794a20fbc12c9776913a4308a888fb",
+    "/FirstProject/assets/icons/icon-384x384.png": "0f3971aa2dcfdec1b5e5797f60ddbcceaacfbb26",
+    "/FirstProject/assets/icons/icon-512x512.png": "602ed9668541fa2ee9d1de6461538e7cf064d126",
+    "/FirstProject/assets/icons/icon-72x72.png": "ad716c51ef0fe5e2d1de2a50caee9dab49bf481e",
+    "/FirstProject/assets/icons/icon-96x96.png": "7c60a5cd801ff394ff2306c716a42952eafb85da",
+    "/FirstProject/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/FirstProject/index.html": "add23ef55afabda4bb3580f697cc4d3c0013d1d2",
+    "/FirstProject/main.9524c4e83986fee8cd18.js": "8810f0913a9e578715fd5f491059e46096ffe475",
+    "/FirstProject/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
+    "/FirstProject/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/FirstProject/styles.72a7b659dc7827421460.css": "3a1ab062e8f326a5184d651cdad2468d56ddb39f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
